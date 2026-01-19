@@ -16,7 +16,7 @@ const getSum = () => {
 	let td2=document.createElement("td");
 	td1.innerText="Total Price";
 	td2.innerText=sum;
-	td2id="ans";
+	td2.id="ans";
 	new_row.append(td1,td2);
 	tab.append(new_row);
 	
